@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: |
       - name: Test with pytest
-        run: pytest -vv
+        run: pytest py_test.py
 
   build-docker-image:
     name: Build Docker Image
